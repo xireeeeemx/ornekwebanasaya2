@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:"Arial";
+	font-size:12px;
+	color:#666;
+	}
+#container{
+	width:642px;
+	margin:auto;
+	}
+.menu{
+	margin:0;
+	padding:0;
+	font-family:"Arial";
+	list-style-type:none;
+	font-size:12px;
+	font-weight:bold;
+	}
+.menu li{
+	float:left;
+	}
+.menu li a{
+	text-decoration:none;
+	color:#666;
+	display:block;
+	width:80px;
+	padding:9px 0;
+	text-align:center;
+	}
+li#menu1 a{
+	background-color:rgb(221,113,74);
+	color:#FFF;
+	width:60px;
+	margin-left:8px;
+    }
+li#menu1 a:hover{
+	background-color:#FFF;
+	color:rgb(221,113,74);
+	}
+.menu li a:hover{
+	color:rgb(221,113,74);
+	}
+.baslik1 {
+	color:rgb(221,113,74);
+	font-size:13px;
+	}
+#left{
+	padding:10px;
+	width:400px;
+	float:left
+	}
+.yazi{
+	color:rgb(221,113,74);
+	}
+.baslik2{
+	font-size:14px;
+	color:rgb(121,77,61);
+	}
+.link{
+	color:rgb(221,113,74);
+	text-decoration:none;
+    }
+.baslik3{
+	font-size:13px;
+	color:#393;
+	}
+#right{
+	padding:10px;
+	width:202px;
+	float:left
+	}
+.yazi2{
+	color:#393;
+	}
+#footer{
+	clear:both;
+	color:#999;
+	border-top:1px solid #999;
+	padding:10px;
+	font-size:10px
+	}
+.link2{
+	text-decoration:none;
+	color:#999;
+	}
